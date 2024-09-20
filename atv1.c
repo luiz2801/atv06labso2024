@@ -4,9 +4,7 @@
 #include <sched.h>
 #include <time.h>
 #include <unistd.h>
-#ifndef SCHED_BATCH
-#define SCHED_BATCH 3
-#endif
+
 #define N 500 // Limite do contador
 
 int newPolicy(int policy, int priority){
